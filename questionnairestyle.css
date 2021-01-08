@@ -1,0 +1,27 @@
+body {
+  background-color: cadetblue;
+}
+
+#questionnaireHeading {
+  text-align: center;
+  color: brown;
+}
+
+#calculate-score-container {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+#display-score {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+#score-interpretation {
+  text-align: center;
+  margin-bottom: 60px;
+  font-size: xx-large;
+  font-weight: bolder;
+}
