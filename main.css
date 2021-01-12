@@ -1,11 +1,12 @@
 * {
   
 }
-html {
+/* html {
   scroll-behavior: smooth;
-}
+} */
 body {
-  padding-top: 3rem;
+    /* Figure out ehy I made this tag???? */
+  /* padding-top: 3rem; */
 }
 img{
     border-radius: 25%;
@@ -75,7 +76,7 @@ footer {
 }
 a{
     font-family: "Times New Roman", Times, serif;
-    padding-left: 2%;
+    /* padding-left: 2%; */
 }
 li{
     font-size: 125%;
@@ -83,6 +84,7 @@ li{
 }
 .pop{
     font-size: 160%;
+    padding-left: 2%;
 }
 .mood{
     font-family: "Times New Roman", Times, serif;
@@ -100,4 +102,22 @@ li{
 }
 h3{
     padding-bottom: 5%;
+}
+.scroll{
+    padding-left: 2%;
+}
+.display-4{
+    font-family: "Times New Roman", Times, serif;
+}
+.journal-t{
+    font-family: "Times New Roman", Times, serif;
+    margin-bottom: -3%;
+}
+@media only screen and (max-width:767px){
+    html,body {
+        overlflow-x: hidden;
+    }
+}
+nav{
+    margin:0
 }
