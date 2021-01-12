@@ -17,92 +17,97 @@
     <link rel="stylesheet" href="main.css" />
   </head>
   <header>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <a class="navbar-brand" href="#">  Mood Snapshot</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+    <nav
+      class="navbar navbar-expand-md navbar-dark fixed-top"
+     
+    >
+      <a  class="navbar-brand pop" href="#">Mood Snapshot</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarCollapse"
+        aria-controls="navbarCollapse"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link scroll" href="#top">Home</a>
+            <a class="nav-link scroll active" href="#top">Home</a>
           </li>
           <li class="nav-item scroll">
             <a class="nav-link" href="#Mood">Mood</a>
           </li>
           <li class="nav-item scroll">
-            <a class="nav-link" href="#Journal">Journals</a>
+            <a class="nav-link" href="#Journal">Journal</a>
           </li>
         </ul>
       </div>
     </nav>
   </header>
-  
+
   <section class="hero" id="top">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
           <h1 class="display-3">Mood Snapshot</h1>
-          <div id="quoteDisplay"></div>
+          <div class="quote" id="quoteDisplay"></div>
         </div>
       </div>
     </div>
   </section>
-  <section class="pricing" id="Mood">
+  <section class="moodtest" id="Mood">
     <div class="container">
-      <h1 class="mb-5 display-4">Mood Test</h1>
-      <div class="card text-center">
-        <div class="card-body">
-          <h5 class="card-title">Mental Score</h5>
-          <p class="card-text">
-            Take this questionnare to get a accurate assesment on how you are
-            feeling
-          </p>
-          <img
-            class="card-img-center"
-            src="/images/IMG_7213.JPG"
-            alt="Image Placeholder"
-            width="200"
-            height="200"
-          />
-        </div>
-        <div class="button">
+      <h1 class="mb display-4 mood">Mood Test</h1>
+      <div class="col-lg-">
+        <h5 class="title mood">Mental Score</h5>
+        <p class="text mood">
+          Take this questionnare to get a accurate assesment on how you are
+          feeling
+        </p>
+        <!-- <img
+          align="right"
+          class="card-img-center"
+          src="/images/IMG_7213.JPG"
+          alt="Image Placeholder"
+          width="200"
+          height="200"
+        /> -->
+      </div>
+      <div class="button">
+        <div class="text-right">
           <a id="button" href="http://www.google.com" class="btn btn-primary"
             >Click Here!</a
           >
         </div>
       </div>
     </div>
-    
   </section>
-  
+
   <section class="features" id="Journal">
     <div class="container">
       <h1 class="mb-5 display-4">Journal</h1>
       <div class="row">
-        <!-- <div class="col-md-4">
-          <h3>Lorem ipsum dolor sit amet</h3>
-          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div> -->
         <div class="col-md-center">
           <h3>Tell us How your Feeling!</h3>
-          <textarea id="textbox" name="textbox" rows="8" cols="50"></textarea>
+          <a id="button-2" href="http://www.google.com" class="btn btn-primary two"
+            >Click Here!</a
+          >
+          <!-- text box just incase. -->
+          <!-- <textarea id="textbox" name="textbox" rows="8" cols="50"></textarea> -->
         </div>
-        <!-- <div class="col-md-4">
-          <h3>Lorem ipsum dolor sit amet</h3>
-          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div> -->
       </div>
     </div>
     <script
-    src="https://code.jquery.com/jquery-3.5.1.js"
-    integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
-    crossorigin="anonymous"
-  ></script>
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
   </section>
-  
-  
-  
+
   <footer>
     <p>About Us Randomness Maybe</p>
   </footer>

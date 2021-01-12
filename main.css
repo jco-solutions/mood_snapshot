@@ -1,22 +1,36 @@
-
+* {
+  
+}
+html {
+  scroll-behavior: smooth;
+}
 body {
   padding-top: 3rem;
+}
+img{
+    border-radius: 25%;
 }
 
 .hero {
   padding: 45vh 0;
-  background: linear-gradient(to left, #1a2980, #26d0ce);
+  background-image: url(/images/279097.jpg);
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  /* background: linear-gradient(to left, #1a2980, #26d0ce); */
 }
 
 .features {
-   padding: 25vh 0 ;
-  background: #222;
+  padding: 30vh 0;
+  /* background: #222; */
   color: white;
+  background: linear-gradient(to right, #1a2980, #26d0ce);
 }
 
-.pricing {
-    background: linear-gradient(to right, #1a2980, #26d0ce);
-   padding: 25vh 0 ;
+.moodtest {
+  background: linear-gradient(to left, #1a2980, #26d0ce);
+  padding: 35vh 0;
   text-align: center;
 }
 
@@ -33,9 +47,57 @@ footer {
   color: white;
 }
 .card {
-    margin: 0 auto;
-    float: none; 
-     margin-bottom: 10px; 
-    height: 23rem;
-     width: 40rem;
-     
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
+  height: 23rem;
+  width: 40rem;
+}
+.display-3 {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  font-weight: 600;
+  color: white;
+  font-size: 500%;
+}
+.quote {
+  font-size: 135%;
+  text-align: center;
+  font-weight: 300;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+.mood{
+    text-align: right;
+}
+#button{
+    float: right;
+}
+a{
+    font-family: "Times New Roman", Times, serif;
+    padding-left: 2%;
+}
+li{
+    font-size: 125%;
+    padding-left: 10%;
+}
+.pop{
+    font-size: 160%;
+}
+.mood{
+    font-family: "Times New Roman", Times, serif;
+    color: white;
+}
+.title{
+    font-size: 235%;
+    padding-bottom: ;
+}
+.text{
+    font-size: 115%;
+}
+.two{
+    float: left;
+}
+h3{
+    padding-bottom: 5%;
+}
