@@ -1,13 +1,5 @@
-* {
-  
-}
-/* html {
-  scroll-behavior: smooth;
-} */
-body {
-    /* Figure out ehy I made this tag???? */
-  /* padding-top: 3rem; */
-}
+
+
 img{
     border-radius: 25%;
 }
@@ -92,7 +84,7 @@ li{
 }
 .title{
     font-size: 235%;
-    padding-bottom: ;
+    /* padding-bottom:; */
 }
 .text{
     font-size: 115%;
@@ -115,7 +107,7 @@ h3{
 }
 @media only screen and (max-width:767px){
     html,body {
-        overlflow-x: hidden;
+        overflow-x: hidden;
     }
 }
 nav{
