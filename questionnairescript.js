@@ -19,7 +19,7 @@ $('#calculate-button').click(function setScore() {
 
     var scoreInt = document.getElementById("score-interpretation");
     if (score <= 4) {
-        scoreInt.style.color = "green";
+        scoreInt.style.color = "#83ed7e";
     } else if (score > 4 && score <= 9) {
         scoreInt.style.color = "yellow";
     } else if (score > 9 && score <= 14) {
