@@ -1,0 +1,45 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  background: linear-gradient(to left, #1a2980, #26d0ce);
+  color: white;
+}
+
+.container {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+h5 {
+  font-size: 30px;
+  color: black;
+  font-weight: bolder;
+}
+
+#questionnaireHeading {
+  text-align: center;
+  color: darkblue;
+}
+
+#calculate-score-container {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+#returnButton {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+#display-score {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+#score-interpretation {
+  text-align: center;
+  margin-bottom: 60px;
+  font-size: xx-large;
+  font-weight: bolder;
+}
