@@ -1,2 +1,201 @@
-body {
+img {
+  border-radius: 25%;
+}
+
+.hero {
+  padding: 45vh 0;
+  background-image: url(../mood_snapshot/images/279097.jpg);
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  text-emphasis-style: dot;
+  -webkit-text-emphasis-style: dot;
+  /* background: linear-gradient(to left, #1a2980, #26d0ce); */
+}
+
+.features {
+  padding: 10vh 0 10vh 0;
+  /* background: #222; */
+  color: white;
+  background: linear-gradient(to left, #1a2980, #26d0ce);
+}
+
+.moodtest {
+  background: linear-gradient(to left, #1a2980, #26d0ce);
+  padding: 10vh 0 10vh 0;
+  text-align: center;
+}
+
+.featured-price {
+  transform: scale(1.1);
+  z-index: 10;
+  background: #222;
+}
+
+footer {
+  padding: 10vh 0;
+  text-align: center;
+  background: black;
+  color: white;
+}
+.card {
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
+  height: 23rem;
+  width: 40rem;
+}
+.display-3 {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  font-weight: 600;
+  color: white;
+  font-size: 500%;
+}
+
+.quote {
+  font-size: 135%;
+  text-align: center;
+  font-weight: 300;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+}
+.mood {
+  text-align: right;
+}
+#button {
+  float: right;
+}
+a {
+  font-family: "Times New Roman", Times, serif;
+  /* padding-left: 2%; */
+}
+li {
+  font-size: 125%;
+  padding-left: 10%;
+}
+.pop {
+  font-size: 160%;
+  padding-left: 2%;
+}
+.mood {
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+}
+.title {
+  font-size: 235%;
+  /* padding-bottom:; */
+}
+.text {
+  font-size: 115%;
+}
+.two {
+  float: left;
+}
+h3 {
+  padding-bottom: 5%;
+}
+.scroll {
+  padding-left: 2%;
+}
+.display-4 {
+  font-family: "Times New Roman", Times, serif;
+}
+.journal-t {
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: -3%;
+}
+@media only screen and (max-width: 767px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+}
+nav {
+  margin: 0;
+}
+
+#result {
+  padding-top: 150px;
+  color: white;
+  font-size: 65px;
+}
+
+#titleQuote {
+  margin: auto;
+}
+
+section#top {
+  padding-top: 25px;
+}
+
+#journalEntryHeader {
+  text-align: center;
+  font-size: xx-large;
+}
+
+p#date {
+  text-align: center;
+  font-size: xx-large;
+}
+
+#textbox {
+  display: inline-block;
+  background-color: #b0aea9;
+  border-color: white;
+  justify-self: center;
+  color: black;
+  font-size: medium;
+  font-weight: normal;
+  min-height: fit-content;
+  max-height: fit-content;
+  border: solid 1px white;
+  min-width: 95%;
+  max-width: 95%;
+  margin-bottom: 35px;
+}
+
+#printButton {
+  text-align: center;
+}
+
+#navbar {
+  background: linear-gradient(to left, #1a2980, #26d0ce);
+}
+@media print {
+  header {
+    display: none;
+  }
+
+  #top {
+    display: none;
+  }
+  h1#testLabel {
+    display: none;
+  }
+
+  div#divOne {
+    display: none;
+  }
+
+  h5#scoreLabel {
+    display: none;
+  }
+
+  a#button {
+    display: none;
+  }
+
+  p#asmntInst {
+    display: none;
+  }
+  button#prntBtn {
+    display: none;
+  }
+
+  footer {
+    display: none;
+  }
 }
